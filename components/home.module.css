@@ -1,0 +1,11 @@
+.home {
+    width: 50px;
+    height: auto; 
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
+    padding : 1rem;
+}
+
+.home:hover {
+    transform: scale(1.1); 
+}
