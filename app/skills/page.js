@@ -15,6 +15,7 @@ export default function Resume() {
               <li>Novices : Python</li>
             </ul>
           </li>
+          <hr/>
           <li>
             Technologies
             <ul>

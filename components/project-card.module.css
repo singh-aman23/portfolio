@@ -1,0 +1,58 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .heading:hover, .subHeading:hover{
+    transform : scale(1.05);
+    color : orange;
+  }
+  
+  .subHeading {
+    font-size: 18px;
+    margin-bottom: 4px;
+    padding : 10px;
+    transition: transform 0.3s ease;
+
+  }
+  
+  .text {
+    font-size: 14px;
+    margin: 4px 0;
+  }
+  
+  .section {
+    margin-bottom: 12px;
+  }
+  
+  .liveLink {
+    color: #ff385c;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border: 1px solid #ff385c;
+    padding: 6px 12px;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.3s ease;
+  }
+  
+  .liveLink:hover {
+    background-color: #e3345d;
+    color: white;
+  }
+
+  .card:hover{
+    transform : scale(1.05);
+  }
+  

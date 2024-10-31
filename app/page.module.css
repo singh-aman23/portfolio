@@ -5,7 +5,8 @@
 }
 
 .container {
-    border: 0.3rem solid black;
+    border: 1px solid #ddd;
+    border-radius: 8px;
     width: 50%;
     margin: auto; 
     display: flex; 
@@ -14,6 +15,11 @@
     justify-content: center; 
     box-sizing: border-box; 
     padding: 2rem; 
+    transition: transform 0.3s ease;
+}
+
+.container:hover{
+    transform : scale(1.05);
 }
 
 .container ul {
